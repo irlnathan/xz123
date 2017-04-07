@@ -26,7 +26,7 @@ module.exports.webpack = {
   ***************************************************************************/
   entry: {
     // 'homepage': './assets/js/homepage.js'
-    entry: './assets/js/app.jsx',
+    homepage: './assets/js/homepage.jsx',
   },
 
 
@@ -56,7 +56,7 @@ module.exports.webpack = {
   ***************************************************************************/
   module: {
     rules: [
-      // Extract less files
+      // Extract css files
       {
         test: /\.css$/,
         loader: ExtractTextPlugin.extract({ use: 'css-loader' })

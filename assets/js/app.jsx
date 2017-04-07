@@ -49,5 +49,5 @@ export default class SailsReact extends Component {
 
 ReactDOM.render(
   <SailsReact/>,
-  document.getElementById('app')
+  document.querySelector('.container'));
 );
